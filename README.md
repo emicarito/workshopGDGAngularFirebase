@@ -1,2 +1,0 @@
-# workshopGDGAngularFirebase
-Created with CodeSandbox
