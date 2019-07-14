@@ -25,7 +25,6 @@ export class AppComponent {
 
   @ViewChild("file") file;
   files: Set<File> = new Set();
-
   url: any =
     "https://i.pinimg.com/564x/65/df/2c/65df2c922e64c61235162ab7c0924d3c.jpg";
   _file;

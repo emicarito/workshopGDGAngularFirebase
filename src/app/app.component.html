@@ -28,9 +28,12 @@
 
 <div class="container">
   <!--este div contiene la que voy a mostrar-->
+
   <div class="card" *ngFor="let speaker of speakerList | async">
     <img (click)="select(speaker)" [src]="speaker.url" />
-    <p>{{speaker.name}}</p>
+    <a target="_blank" [href]="'https://twitter.com/'+speaker.name"
+      >{{speaker.name}}</a
+    >
     <p class="delete" (click)="remove(speaker.id)">❌</p>
   </div>
 </div>
